@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(int argc, char **argv) {
 	int a, b, c;
 
 	cout << "I'm so smart I know how to add two numbers!!!" << endl;
@@ -14,5 +14,5 @@ int main() {
     c = a + b;
     cout << "a + b = " << c << endl;
 
-    return 1;
+    return 0;
 }
