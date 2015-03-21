@@ -2,17 +2,19 @@
 using namespace std;
 
 int main(int argc, char **argv) {
-	int n, sum = 0;
+	int guess, answer = 3;
+	cout << "guess a number!" << endl;
 
-	cout << "I'm so smart I know how to add from 1 to n!!!" << endl;
-    cout << "n = ";
-    cin >> n;
+	while(true) {
+		cout << "your guess: ";
+		cin >> guess;
 
-    for (int i = 1; i <= n; i++) {
-    	sum += i;
-    }
-
-    cout << "1 + 2 + ... + " << n << " = " << sum << endl;
-
+		if (guess == answer) {
+			cout << "you got it!" << endl;
+			break; 
+		} else {
+			cout << "wrong! try again" << endl;
+		}
+	}
     return 0;
 }
