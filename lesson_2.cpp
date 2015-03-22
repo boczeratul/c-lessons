@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int larger(int a, int b) {
-	return (a > b) ? a : b;
+int add(int a, int b) {
+	return a + b;
 }
 
 int main(int argc, char **argv) {
@@ -15,8 +15,8 @@ int main(int argc, char **argv) {
     cout << "b = ";
     cin >> b;
 
-    c = larger(a, b);
-    cout << "larger of a and b = " << c << endl;
+    c = add(a, b);
+    cout << "a + b = " << c << endl;
 
     return 0;
 }
