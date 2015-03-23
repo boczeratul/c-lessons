@@ -8,13 +8,13 @@ $ git clone git@github.com:boczeratul/c-lessons.git
 $ cd c-lessons
 ```
 
-Edit and Compile
+### Edit and Compile
 ```bash
 $ g++ exercise.cpp 
 # or other files
 ```
 
-Execute
+### Execute
 ```bash
 $ ./a.out
 ```
