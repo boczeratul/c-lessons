@@ -1,4 +1,5 @@
 #include <iostream>
+// #include <iomanip>
 using namespace std;
 
 int main(int argc, char **argv) {
@@ -13,6 +14,7 @@ int main(int argc, char **argv) {
     }
 
     cout << "1 + 2 + ... + " << n << " = " << sum << endl;
+    // cout << setw(4) << 4 << setw(4) << 5 << endl;
 
     return 0;
 }
